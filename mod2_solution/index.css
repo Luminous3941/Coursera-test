@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+h2{
+	text-align: center;
+	font-family: "constantia", Times, sans-serif;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+article{
+	border: solid 1px black;
+	background-color: #66ffff;
+	width: 30%;
+	margin-left: 26.6px;
+	margin-bottom: 10px;
+	float: left;
+	font-family: "corbel", Times;
+	font-style: italic;
+}
+div{
+	padding: 10px;
+}
+p{
+	text-align: center;
+	border: solid 2px black;
+	width: 110px;
+	float: right;
+	margin-left: 100%;
+	margin-bottom: 10px;
+	font-family: "Arial Rounded MT Bold", Times;
+	font-weight: bold;
+}
+#p1{
+	background-color: #ffe6e6;
+}
+#p2{
+	background-color: rgb(255, 204, 128);
+}
+#p3{
+	background-color: rgb(179, 255, 179);
+}
+@media (min-width: 768px) and (max-width: 991px){
+.art1{
+	width: 47%;
+	margin-left: 15.3px;
+	margin-bottom: 10px;
+}
+.art2{
+	width: 47%;
+	margin-left: 15.3px;
+	margin-bottom: 10px;
+}	
+.art3{
+	width: 96%;
+	margin-left: 15.3px;
+}
+}
+@media (max-width: 767px){
+	.art1{
+	width: 85%;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+.art2{
+	width: 85%;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}	
+.art3{
+	width: 85%;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+}
